@@ -36,9 +36,9 @@
     <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
-                <a class="brand" href="../"><?php echo $site_title; ?></a>
+                <a class="brand" href="../../"><?php echo $site_title; ?></a>
                 <ul class="nav pull-right">
-                    <li><a href="../"><?php echo $editor_button_view; ?></a></li>
+                    <li><a href="../../"><?php echo $editor_button_view; ?></a></li>
                     <li><a href="?action=logout"><?php echo $editor_button_logout; ?></a></li>
                 </ul>
             </div><!-- .container -->

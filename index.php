@@ -46,6 +46,8 @@
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="app/js/modernizr-2.0.6.min.js"></script>
    	 	<script src="app/js/jquery-1.7.2.min.js"></script>
+    	<script src="app/js/thinsp.min.js"></script>
+    	<script src="app/js/bootstrap.min.js"></script>
 
 	</body>
 </html>

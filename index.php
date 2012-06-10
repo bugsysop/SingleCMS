@@ -16,8 +16,8 @@
 		<!-- styles
     	================================================== -->
     	<!-- should also be applied in TinyMCE editor editor.php ln 20 -->
-    	<link rel="stylesheet" href="css/bootstrap.min.css">
-    	<link rel="stylesheet" href="css/style.css">
+    	<link rel="stylesheet" href="app/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="app/css/style.css">
 	</head>
 
 	<body>
@@ -27,10 +27,10 @@
         		<h1><?php echo $site_title; ?></h1>
         	</header>
         	<div id="main" role="main">
-            	<?php include('body.txt'); /* Load the body content */ ?>
+            	<?php include('app/body.txt'); /* Load the body content */ ?>
         	</div>
         	<footer>
-            	<a href="edit/">Edit</a>
+            	<a href="app/edit/">Edit</a>
         	</footer>
     	</div> <!-- .container -->
 
@@ -44,8 +44,8 @@
 		<!-- javascript
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
-    	<script src="js/modernizr-2.0.6.min.js"></script>
-   	 	<script src="js/jquery-1.7.2.min.js"></script>
+    	<script src="app/js/modernizr-2.0.6.min.js"></script>
+   	 	<script src="app/js/jquery-1.7.2.min.js"></script>
 
 	</body>
 </html>

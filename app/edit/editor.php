@@ -16,17 +16,15 @@
             	language : "<?php echo $site_langage; ?>", // change language
                 mode : "textareas",
                 theme : "advanced",
+                plugins : "inlinepopups,searchreplace",
 
                 // Styles applied within editor
                 content_css : "../css/bootstrap.min.css,../css/style.css",
 
                 // Theme options - button# indicated the row# only
-                theme_advanced_buttons1 : "fontsizeselect,formatselect,bold,italic,underline,|,justifyleft,justifycenter,justifyright,|,forecolor,backcolor,|,bullist,numlist,|,outdent,indent,|,link,unlink,image,|,code,|,sub,sup,|,charmap,emotions",
+                theme_advanced_buttons1 : "fontsizeselect,formatselect,bold,italic,underline,strikethrough,blockquote,|,justifyleft,justifycenter,justifyright,|,bullist,numlist,|,outdent,indent,|,forecolor,backcolor,|,sub,sup,|,charmap,|,link,unlink,anchor,|,image,|,search,replace,|,removeformat,code,|",
                 theme_advanced_buttons2 : "",
                 theme_advanced_buttons3 : "",
-                theme_advanced_toolbar_location : "top",
-                theme_advanced_toolbar_align : "left",
-                theme_advanced_statusbar_location : "bottom",
                 theme_advanced_resizing : true
             });
         });
@@ -45,7 +43,7 @@
         </div><!-- .navbar-inner-->
     </div><!-- .navpbar-->
 
-    <div class="container" style="margin-top: 80px;">
+    <div class="container" style="margin-top: 100px;">
         <form method="POST" action="?action=save">
             <fieldset>
                 <div class="clearfix">
@@ -59,7 +57,7 @@
                 <div class="clearfix">
                     <!--<label for="content">Page Content</label>-->
                     <div class="input">
-                        <textarea class="tinymce" name="content" id="content" style="width: 920px; height: 500px;"><?php echo $content; ?></textarea>
+                        <textarea class="tinymce" name="content" id="content" style="width: 940px; height: 500px;"><?php echo $content; ?></textarea>
                         <p style="max-width:100%; margin-top:4px; font-size:90%; color:#999;"><?php echo $editor_help_tags; ?> : <?php echo htmlspecialchars($allowed_tags); ?></p>
                     </div>
                 </div>

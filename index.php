@@ -1,4 +1,4 @@
-<?php include('config.php'); /* Load the config file */ ?>
+<?php include('app/config.php'); /* Load the config file */ ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="<?php echo $site_langage; ?>"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="<?php echo $site_langage; ?>"> <![endif]-->

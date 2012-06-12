@@ -25,7 +25,8 @@
                 theme_advanced_buttons1 : "fontsizeselect,formatselect,bold,italic,underline,strikethrough,blockquote,|,justifyleft,justifycenter,justifyright,|,bullist,numlist,|,outdent,indent,|,forecolor,backcolor,|,sub,sup,|,charmap,|,link,unlink,anchor,|,image,|,search,replace,|,removeformat,code,|",
                 theme_advanced_buttons2 : "",
                 theme_advanced_buttons3 : "",
-                theme_advanced_resizing : true
+                theme_advanced_resizing : true,
+                theme_advanced_resize_horizontal : false
             });
         });
     </script>

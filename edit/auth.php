@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $site_title; ?> - Login</title>
+    <title><?php echo $site_title; ?> - <?php echo $editor_page_title_login; ?></title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript">

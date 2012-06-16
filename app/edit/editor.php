@@ -2,7 +2,7 @@
 <html lang="<?php echo $site_langage; ?>">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $site_title; ?> - Editor</title>
+    <title><?php echo $site_title; ?> - <?php echo $editor_page_title_editor; ?></title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="../js/tiny_mce/tiny_mce.js"></script>

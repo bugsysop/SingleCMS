@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div>
-                    <input type="submit" class="btn primary" value="<?php echo $editor_login_login; ?>">
+                    <input type="submit" class="btn btn-primary" value="<?php echo $editor_login_login; ?>">
                     <a href="../" class="btn"><?php echo $editor_button_cancel; ?></a>
                 </div>
             </fieldset>
